@@ -8,6 +8,6 @@ public class Descanso {
         this.NumeroSemanas = valor;
     }
     public String getStatusGeral() {
-
+        if (HorasDescanso >= 26 && NumeroSemanas >= 1)
     }
  }
