@@ -1,14 +1,14 @@
-public class Descanso {
-    int HorasDescanso;
-    int NumeroSemanas;
+public class registrarDescanso {
+    int horasDescanso;
+    int numeroSemanas;
     public void defineHorasDescanso(int valor) {
-        this.HorasDescanso = valor;
+        this.horasDescanso = valor;
     }
     public void defineNumeroSemanas(int valor) {
-        this.NumeroSemanas = valor;
+        this.numeroSemanas = valor;
     }
     public String getStatusGeral() {
-        if (HorasDescanso >= 26 && NumeroSemanas >= 1) {
+        if (horasDescanso >= 26 && numeroSemanas >= 1) {
             return "descansado";
         } else {
             return "cansado";
