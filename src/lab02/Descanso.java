@@ -1,4 +1,6 @@
-public class registrarDescanso {
+package lab02;
+
+public class Descanso {
     int horasDescanso;
     int numeroSemanas;
     public void defineHorasDescanso(int valor) {
